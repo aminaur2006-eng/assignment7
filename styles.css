@@ -1,0 +1,46 @@
+/* buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* photo */
+#photo {
+  width: 250px; 
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* phones photos */
+#phones {
+  width: 250px; 
+  border-radius: 10px;
+}
+
+/* animation boxes */
+#box1, #box2, #box3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(204, 128, 240);
+  margin: 20px auto;
+  border-radius: 10px;
+  position: relative; /* for movement */
+}
+
+#box2 {
+  background-color: rgb(64, 242, 108);
+}
+#box3 {
+  background-color: rgb(226, 26, 26);
+}
